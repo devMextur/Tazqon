@@ -1,0 +1,5 @@
+System.NullReferenceException: De objectverwijzing is niet op een exemplaar van een object ingesteld.
+   bij Tazqon.Habbo.HabboSystem..ctor() in c:\Users\Wichard\Documents\GitHub\Tazqon\Source\Tazqon\Habbo\HabboSystem.cs:regel 57
+   bij Tazqon.System.Main() in c:\Users\Wichard\Documents\GitHub\Tazqon\Source\Tazqon\System.cs:regel 82
+
+

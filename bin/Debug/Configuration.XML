@@ -1,0 +1,48 @@
+﻿<!-- Tazqon XML Configration file. -->
+
+<XML>
+  <!-- Network -->
+  <Sessions.Network.IP>192.168.2.1</Sessions.Network.IP>
+  <Sessions.Network.Port>30000</Sessions.Network.Port>
+  <Sessions.Network.Backlog>10</Sessions.Network.Backlog>
+  <Sessions.Pooling.Amount>10000</Sessions.Pooling.Amount>
+  <Sessions.Pooling.Buffersize>512</Sessions.Pooling.Buffersize>
+  <!-- Network-->
+
+  <!-- MySQL -->
+  <MySQL.Connection.Host>localhost</MySQL.Connection.Host>
+  <MySQL.Connection.Port>3306</MySQL.Connection.Port>
+  <MySQL.Information.Username>USERNAME</MySQL.Information.Username>
+  <MySQL.Information.Password>PASSWORD</MySQL.Information.Password>
+  <MySQL.Information.Database>Tazqon</MySQL.Information.Database>
+  <MySQL.Pooling.Enabled>true</MySQL.Pooling.Enabled>
+  <MySQL.Pooling.Minimal>1</MySQL.Pooling.Minimal>
+  <MySQL.Pooling.Maximal>30</MySQL.Pooling.Maximal>
+  <!-- MySQL -->
+
+  <!-- Extra's -->
+  <Packets.Events.Logging>true</Packets.Events.Logging>
+  <Matrix.Walk.Diagonal>true</Matrix.Walk.Diagonal>
+  <!-- Extra's -->
+  
+  <!-- Rooms -->
+  <Rooms.Favorite.Maximal>30</Rooms.Favorite.Maximal>
+  <Rooms.Manager.Maximal.Running>200</Rooms.Manager.Maximal.Running>
+  <Rooms.Inactivity.Unload.Minutes>10</Rooms.Inactivity.Unload.Minutes>
+  <Rooms.Inactivity.Unit.Kick.Minutes>5</Rooms.Inactivity.Unit.Kick.Minutes>
+  <!-- Rooms -->
+  
+  <!-- Messenger -->
+  <Messenger.Maximal.Friends.Default>250</Messenger.Maximal.Friends.Default>
+  <Messenger.Maximal.Friends.Club>500</Messenger.Maximal.Friends.Club>
+  <Messenger.Maximal.Friends.Vip>1000</Messenger.Maximal.Friends.Vip>
+  <Messenger.Maximal.Friens.Per.Page>50</Messenger.Maximal.Friens.Per.Page>
+  <!-- Messenger -->
+  
+  <!-- Global Habbo -->
+  <MOTD.Notifitation.Enabled>false</MOTD.Notifitation.Enabled>
+  <MOTD.Notifitation.Message>mysqlsetting(motd.notification.message)</MOTD.Notifitation.Message>
+  <!-- Global Habbo -->
+</XML>
+
+<!-- Tazqon XML Configration file.-->

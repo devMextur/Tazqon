@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B5225A22-B186-4655-9AA9-A5259BA8FAFB}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tazqon</RootNamespace>
+    <AssemblyName>Tazqon</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>tazqon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Tazqon.System</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mysql.data, Version=6.3.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Thunder\Thunder\bin\Debug\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commons\Adapters\DateTimeAdapter.cs" />
+    <Compile Include="Commons\Adapters\DictionaryAdapter.cs" />
+    <Compile Include="Commons\Adapters\RowAdapter.cs" />
+    <Compile Include="Commons\Components\SafeInteger.cs" />
+    <Compile Include="Commons\Storage\Configration.cs" />
+    <Compile Include="Commons\IOStreamer.cs" />
+    <Compile Include="Commons\Components\XMLStreamer.cs" />
+    <Compile Include="Commons\Storage\Garbage.cs" />
+    <Compile Include="Commons\Storage\MiniConfigration.cs" />
+    <Compile Include="Habbo\Achievements\Achievement.cs" />
+    <Compile Include="Habbo\Achievements\AchievementCategory.cs" />
+    <Compile Include="Habbo\Achievements\AchievementManager.cs" />
+    <Compile Include="Habbo\Badges\BadgeInformation.cs" />
+    <Compile Include="Habbo\Badges\BadgeManager.cs" />
+    <Compile Include="Habbo\Characters\Character.cs" />
+    <Compile Include="Habbo\Characters\CharacterManager.cs" />
+    <Compile Include="Habbo\Characters\CharacterRank.cs" />
+    <Compile Include="Habbo\HabboSystem.cs" />
+    <Compile Include="Habbo\Messenger\MessengerGroup.cs" />
+    <Compile Include="Habbo\Messenger\MessengerManager.cs" />
+    <Compile Include="Habbo\Messenger\MessengerUpdate.cs" />
+    <Compile Include="Habbo\Pathfinding\BlockCalculator.cs" />
+    <Compile Include="Habbo\Pathfinding\BlockNode.cs" />
+    <Compile Include="Habbo\Rooms\Room.cs" />
+    <Compile Include="Habbo\Rooms\RoomAdapter.cs" />
+    <Compile Include="Habbo\Rooms\RoomManager.cs" />
+    <Compile Include="Habbo\Rooms\RoomModel.cs" />
+    <Compile Include="Habbo\Rooms\RoomUnit.cs" />
+    <Compile Include="Network\Components\SocketArgsStacker.cs" />
+    <Compile Include="Network\Components\SocketBufferStacker.cs" />
+    <Compile Include="Network\Session.cs" />
+    <Compile Include="Network\NetworkSocket.cs" />
+    <Compile Include="Packets\Components\Base64Encoding.cs" />
+    <Compile Include="Packets\Components\Wire64Encoding.cs" />
+    <Compile Include="Packets\Composers\Achievements.cs" />
+    <Compile Include="Packets\Composers\Characters.cs" />
+    <Compile Include="Packets\Composers\Global.cs" />
+    <Compile Include="Packets\Composers\Handshake.cs" />
+    <Compile Include="Packets\Composers\Messenger.cs" />
+    <Compile Include="Packets\Composers\Navigator.cs" />
+    <Compile Include="Packets\Composers\Rooms.cs" />
+    <Compile Include="Packets\Events\Achievements.cs" />
+    <Compile Include="Packets\Events\Characters.cs" />
+    <Compile Include="Packets\Events\Global.cs" />
+    <Compile Include="Packets\Events\Handshake.cs" />
+    <Compile Include="Packets\Events\Messenger.cs" />
+    <Compile Include="Packets\Events\Navigator.cs" />
+    <Compile Include="Packets\Events\Rooms.cs" />
+    <Compile Include="Packets\Headers\MessageComposerIds.cs" />
+    <Compile Include="Packets\Headers\MessageEventIds.cs" />
+    <Compile Include="Packets\Interfaces\IMessageEvent.cs" />
+    <Compile Include="Packets\Messages\PacketComposer.cs" />
+    <Compile Include="Packets\Messages\PacketEvent.cs" />
+    <Compile Include="Packets\PacketManager.cs" />
+    <Compile Include="Storage\MySQLManager.cs" />
+    <Compile Include="Storage\Query.cs" />
+    <Compile Include="Storage\QueryObject.cs" />
+    <Compile Include="Storage\QueryStream.cs" />
+    <Compile Include="Storage\Querys\Achievements.cs" />
+    <Compile Include="Storage\Querys\Badges.cs" />
+    <Compile Include="Storage\Querys\Characters.cs" />
+    <Compile Include="Storage\Querys\Global.cs" />
+    <Compile Include="Storage\Querys\Handshake.cs" />
+    <Compile Include="Storage\Querys\Messenger.cs" />
+    <Compile Include="Storage\Querys\Rooms.cs" />
+    <Compile Include="Storage\QueryType.cs" />
+    <Compile Include="System.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="tazqon.ico" />
+    <Content Include="Configuration.XML">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

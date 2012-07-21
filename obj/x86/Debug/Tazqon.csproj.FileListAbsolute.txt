@@ -1,0 +1,26 @@
+C:\Users\Wichard\AppData\Local\Temporary Projects\MagicEmulator\bin\Debug\MagicEmulator.exe
+C:\Users\Wichard\AppData\Local\Temporary Projects\MagicEmulator\bin\Debug\MagicEmulator.pdb
+C:\Users\Wichard\AppData\Local\Temporary Projects\MagicEmulator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Wichard\AppData\Local\Temporary Projects\MagicEmulator\obj\x86\Debug\MagicEmulator.exe
+C:\Users\Wichard\AppData\Local\Temporary Projects\MagicEmulator\obj\x86\Debug\MagicEmulator.pdb
+C:\Users\Wichard\Documents\visual studio 2010\Projects\Tazqon\Tazqon\bin\Debug\Tazqon.exe
+C:\Users\Wichard\Documents\visual studio 2010\Projects\Tazqon\Tazqon\bin\Debug\Tazqon.pdb
+C:\Users\Wichard\Documents\visual studio 2010\Projects\Tazqon\Tazqon\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Wichard\Documents\visual studio 2010\Projects\Tazqon\Tazqon\obj\x86\Debug\Tazqon.exe
+C:\Users\Wichard\Documents\visual studio 2010\Projects\Tazqon\Tazqon\obj\x86\Debug\Tazqon.pdb
+C:\Users\Wichard\Documents\visual studio 2010\Projects\Tazqon\Tazqon\bin\Debug\Configuration.XML
+C:\Users\Wichard\Documents\Visual Studio 2010\Projects\Tazqon\Tazqon\bin\Debug\mysql.data.dll
+C:\Users\Wichard\.ssh\Tazqon\Source\Tazqon\bin\Debug\Configuration.XML
+C:\Users\Wichard\.ssh\Tazqon\Source\Tazqon\bin\Debug\Tazqon.exe
+C:\Users\Wichard\.ssh\Tazqon\Source\Tazqon\bin\Debug\Tazqon.pdb
+C:\Users\Wichard\.ssh\Tazqon\Source\Tazqon\obj\x86\Debug\Tazqon.exe
+C:\Users\Wichard\.ssh\Tazqon\Source\Tazqon\obj\x86\Debug\Tazqon.pdb
+C:\Users\Wichard\.ssh\Tazqon\Source\Tazqon\obj\x86\Debug\Tazqon.csprojResolveAssemblyReference.cache
+C:\Users\Wichard\.ssh\Tazqon\Source\Tazqon\bin\Debug\Tazqon.exe.config
+C:\Users\Wichard\Documents\GitHub\Tazqon\Source\Tazqon\bin\Debug\Configuration.XML
+C:\Users\Wichard\Documents\GitHub\Tazqon\Source\Tazqon\bin\Debug\Tazqon.exe.config
+C:\Users\Wichard\Documents\GitHub\Tazqon\Source\Tazqon\bin\Debug\Tazqon.exe
+C:\Users\Wichard\Documents\GitHub\Tazqon\Source\Tazqon\bin\Debug\Tazqon.pdb
+C:\Users\Wichard\Documents\GitHub\Tazqon\Source\Tazqon\obj\x86\Debug\Tazqon.csprojResolveAssemblyReference.cache
+C:\Users\Wichard\Documents\GitHub\Tazqon\Source\Tazqon\obj\x86\Debug\Tazqon.exe
+C:\Users\Wichard\Documents\GitHub\Tazqon\Source\Tazqon\obj\x86\Debug\Tazqon.pdb
